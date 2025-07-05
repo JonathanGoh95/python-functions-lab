@@ -104,8 +104,7 @@ print('Exercise 5 Example 2:', sum_to(10))
 # Define your function and test it with different inputs.
 
 def largest(*args):
-    nums = list(args)
-    return max(nums)
+    return max(args)
 
 print('Exercise 6 Example 1:', largest(1, 2, 3))
 print('Exercise 6 Example 2:', largest(10, 4, 2))
